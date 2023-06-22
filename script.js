@@ -6,7 +6,7 @@ $('#but').children('button').attr('id', 'back');
 $('#but').css({ 'display': 'none', 'color': 'red', 'margin-top': '10px', 'border': '2px solid black', 'width': '200px', 'height': '50px', 'text-align': 'center', });
 
 
-const fan = $('#getUp').on('click', function () {
+$('#getUp').on('click', function () {
     $('#but').fadeIn(1000);
 });
 
